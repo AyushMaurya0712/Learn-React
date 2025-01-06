@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header{
+  color: #4CAF50;
+  text-align: center;
+  font-size: 36px;
+  margin: 20px 0;
+}
+
+footer {
+  background-color: #333;       /* Dark background color */
+  color: #fff;                  /* White text color */
+  text-align: center;           /* Center the text */
+  padding: 15px 0;              /* Padding for spacing */
+  font-size: 14px;              /* Font size */
+  position: fixed;              /* Fixes footer at the bottom */
+  bottom: 0;                    /* Position at the bottom of the page */
+  width: 100%;                  /* Full-width footer */
+}
+
+footer p {
+  margin: 0;                    /* Remove default margin on the paragraph */
+}
+
+/* Styling for the ordered list */
+ol {
+  margin: 20px;                /* Margin around the list */
+  padding-left: 20px;         /* Indent the list items */
+  font-size: 18px;            /* Font size for the list items */
+  list-style-type: decimal;    /* Use decimal numbers for the list */
+  color: #333;                 /* Dark text color for better readability */
+}
+
+/* Styling for individual list items */
+li {
+  margin: 10px 0;              /* Space between each list item */
+  line-height: 1.5;            /* Increased line height for better readability */
+}
+
+/* Optional: Add hover effect for list items */
+li:hover {
+  color: #4CAF50;              /* Change color on hover */
+  cursor: pointer;             /* Change cursor to pointer */
+}
